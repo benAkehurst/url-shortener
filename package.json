@@ -1,15 +1,22 @@
 {
   "name": "url-shortener",
-  "version": "1.0.0",
-  "description": "Built side by side with https://github.com/coligo-io/url-shortener-node-mongo-express",
-  "main": "app.js",
+  "version": "1.1.0",
+  "description": "",
+  "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "mongoose": "^4.9.5"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.4",
+    "nodemon": "^2.0.4",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
