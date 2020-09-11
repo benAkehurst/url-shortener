@@ -1,13 +1,9 @@
 {
   "name": "url-shortener",
-  "version": "1.0.0",
-  "description": "Built side by side with https://github.com/coligo-io/url-shortener-node-mongo-express",
-  "main": "app.js",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "mongoose": "^4.9.5"
-  },
+  "version": "1.1.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
